@@ -1,4 +1,6 @@
 object mergesort {
+	def main(args: Array[String]) {
+
 	def msort(xs: List[Int]): List[Int] = {
 		val n = xs.length / 2
 		if (n == 0) xs
@@ -18,4 +20,6 @@ object mergesort {
 
 	val nums = List(2, -4, 5, 7, 1)
 	msort(nums)
+
+	}
 }
